@@ -4,17 +4,28 @@ This summarizer uses OpenAI gpt-4o-mini to summarize the content of any given ur
 
 Have fun!
 
-# Requirements
+## Requirements
 For this repo you will need
 - An OpenAI account with credits
 - An API Key from OpenAI
 
-# Instructions
+## Instructions
 On your project folder, create a .env file with:
 ```
 OPENAI_API_KEY="YOUR_OPEN_AI_KEY"
 ```
 Your key should start with sk-proj
 
-# Warning
+## Warning
+Don't forget to pip install all modules stated on the import statements
+
+# AI Website Summarizer with Ollama
+
+This one user a local Ollama LLM to summarize the content of any given url, just like the previous one. 
+
+## Requirements
+For this repo you will need
+- To install Ollama on your machine and have it running
+
+## Warning
 Don't forget to pip install all modules stated on the import statements
